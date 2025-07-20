@@ -1,6 +1,6 @@
 export interface Product {
   titulo: string;
-  precio: string;
+  precio: number;
   rating: number;
   reviews: number;
   fuente: string;

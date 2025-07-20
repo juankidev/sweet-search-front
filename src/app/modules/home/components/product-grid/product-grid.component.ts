@@ -125,5 +125,9 @@ export class ProductGridComponent implements OnInit {
 
     return `Mostrando ${startItem}-${endItem} de ${this.allProducts.length} productos`
   }
+
+  formatCurrency(amount: number): string {
+    return this.productService.formatCurrency(amount)
+  }
 }
 
