@@ -8,7 +8,7 @@ import { ResponseAPI } from '../../../core/interfaces/response-api.interface';
   providedIn: 'root'
 })
 export class ProductService {
-  private apiProductsUrl = '/api/products'; // Reemplaza con tu URL real
+  private apiProductsUrl = 'api/products'; // Reemplaza con tu URL real
 
   // Datos de ejemplo usando el modelo real del backend
   private mockProducts: Product[] = [];
